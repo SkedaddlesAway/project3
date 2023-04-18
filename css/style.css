@@ -1,0 +1,197 @@
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: #fff;
+    padding: 10px;
+}
+
+#resBod{
+    background-color: #23232B;
+    background-image: linear-gradient( #5a5f76, #23232B, #5a5f76);
+    
+}
+
+#hBod{
+    background-color: #D4BA85;
+    background-image: linear-gradient(#98834a,#D4BA85, #98834a);
+    color: #262626; 
+    font-size: 1vw;
+}
+
+#shrekBod{
+    text-align: center;
+    background-color: #58714C;
+    background-image: linear-gradient(#34615A, #58714C, #121e15);
+}
+
+h1, .full-width {
+    text-align: center;
+    /* position: relative; child absolute */
+    margin: 0 -9999rem; /*what makes the heading wrap*/
+    /*add back section padding value */
+    padding:1rem;
+    background: #23232B;
+    color: #fff;
+    font-size: 1.125rem;
+}
+
+.histH2 {
+    text-align: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em .5em;
+    background: #262626;
+    color: #74AEBF;
+    font-size: 1.7vw;
+    width: 90%;
+    height: auto;
+}
+
+#shrekH1{
+    background: #121e15;
+    color: #CB9A40;
+}
+
+.navv ul{
+    list-style-type: none;
+    overflow: scroll;
+    background-color: #23232B;
+}
+
+.navv li {
+    float: left;
+}
+
+.navv li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navv li a:hover:not(#onpage) {
+    background-color: #111;
+}
+  
+.navv .onpage {
+    background-color: #A25D53;
+}
+
+#sNav ul{
+    background-color: #121e15;
+}
+
+#sNav .onpage {
+    background-color: #D09085;
+}
+
+#hNav ul{
+    background-color: #262626;
+}
+
+#hNav .navv .onpage {
+    background-color: #74AEBF;
+}
+
+#germania{
+    display: block;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: auto;
+    box-shadow: 1em 1em 1em #262626;
+}
+
+#writt{
+    text-align: center;
+    font-size: 1vw;
+    width: 100%;
+    height: auto;
+}
+
+#chin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow:15px 15px #CB9A40;
+    margin: 1em;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    transition: .2s all ease-in-out;
+}
+
+#chin:hover{
+    transform: scale(1.025); 
+}
+
+#onion{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 15px 15px #D09085;
+    margin: 1em;
+    width: 80%;
+    height: auto;
+    box-sizing: border-box;
+    transition: .2s all ease-in-out;
+}
+#onion:hover{
+    transform: scale(1.025);
+}
+
+.grid-container {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} 
+
+#histGrid{
+    grid-gap: 5em;
+}
+
+#resGrid{
+    grid-gap: 10px;
+    background-color: #23232B;
+}
+
+#shrekGrid{
+    grid-gap: 5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.cent{ /*it stands for center :>*/
+    text-align: center;
+}
+
+#shrekH2{
+    text-align: center;
+    margin-top: 1em;
+    padding: 1em;
+    background: #121e15;
+    color: #CB9A40;
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caption{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+audio{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
