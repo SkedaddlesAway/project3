@@ -6,8 +6,11 @@
     <title>Google Maps</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">  
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+    <script src="index.js"></script>
   </head>
-  <body>
+  <body id="mapBod">
     <div class="navv" id="mNav">
         <a id="re" href="index.html">Resume</a>
         <a id="hi" href="histnotes.html">History Notes</a>
@@ -15,6 +18,27 @@
         <a class="onpage" href="#">Maps</a>
     </div>
     <h1 class="full-width" id="mapH1">Google Maps</h1>
+    <div class="grid-container" id="mapGrid">
+      <div >
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11890.778558333814!2d-87.6445153604492!3d41.834873099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c72d3e9a80f%3A0x91cbe4661afb6f1a!2sIllinois%20Institute%20of%20Technology!5e0!3m2!1sen!2sus!4v1681882955828!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div id="map">
+        <script>
+          var map = L.map('map').setView([41.831299,-87.627274], 16);
+          L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', { 
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          }).addTo(map);
+          var marker = L.marker([41.831299,-87.627274]).addTo(map);
+          marker.bindPopup("<b>Illinois Institute of Technology</b>").openPopup();
+        </script>
+      </div>
+      <div>
+        <p>This map is from Google!</p>
+      </div>
+      <div>
+        <p>This map is from Leaflet!</p>
+      </div>
+    </div>
+    
   </body>
 </html>

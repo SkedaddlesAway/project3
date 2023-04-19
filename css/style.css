@@ -29,6 +29,11 @@ body{
     background-image: linear-gradient(#34615A, #58714C, #121e15);
 }
 
+#mapBod{
+    color:#111;
+    text-align: center;
+}
+
 .navv {
     overflow: hidden;
     background-color: #23232B;
@@ -195,6 +200,10 @@ h1, .full-width {
     align-items: center;
 }
 
+#mapGrid{
+    margin:0em;
+}
+
 .cent{ /*it stands for center :>*/
     text-align: center;
 }
@@ -224,7 +233,7 @@ audio{
     object-fit: contain;
 }
 
-@media screen and (max-width: 660px) {
+@media screen and (max-width: 740px) {
     .navv a {
        float: none;
        width: 100%;
@@ -234,16 +243,21 @@ audio{
         grid-column: span 1;
         grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
         grid-auto-flow: dense;   
-        margin: 2em;
         align-items: center; 
+        margin:1em;
     }
 }
 
 iframe:focus {
     outline: none;
-  }
+}
   
-  iframe[seamless] {
+iframe[seamless] {
     display: block;
     align-self: center;
-  }
+}
+
+#map {
+    height: 450px; /* The height is 400 pixels */
+    width: 600px; /* The width is the width of the web page */
+}
