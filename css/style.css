@@ -238,3 +238,12 @@ audio{
         align-items: center; 
     }
 }
+
+iframe:focus {
+    outline: none;
+  }
+  
+  iframe[seamless] {
+    display: block;
+    align-self: center;
+  }
