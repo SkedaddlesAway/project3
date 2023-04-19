@@ -40,7 +40,7 @@ body{
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
     font-size: 1em;
 }
@@ -57,48 +57,39 @@ body{
        float: none;
        width: 100%;
     }
+    
  }
-/**
-.navv ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #23232B;
-    float
-}
 
-.navv li a {
-    float: left;
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.navv li a:hover:not(#onpage) {
-    background-color: #111;
-}
-  
-.navv .onpage {
-    background-color: #A25D53;
-}
-
-#sNav ul{
+#sNav{
     background-color: #121e15;
 }
 
 #sNav .onpage {
     background-color: #D09085;
 }
-**/
-#hNav a{
+
+#hNav{
     background-color: #262626;
 }
 
-#hNav .navv .onpage {
+#hNav .onpage {
     background-color: #74AEBF;
 }
+
+#sh {
+    background-color:  #0F9D58;
+}
+#mNav .onpage{
+    background-color: #F4B400;
+}
+#re{
+    background-color: #DB4437;
+}
+#hi{
+    background-color: #4285F4;
+}
+
+
 
 h1, .full-width {
     text-align: center;
@@ -126,6 +117,11 @@ h1, .full-width {
 #shrekH1{
     background: #121e15;
     color: #CB9A40;
+}
+
+#histH1 {
+    background: #262626;
+    color:#74AEBF;
 }
 
 #germania{
