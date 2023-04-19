@@ -247,6 +247,10 @@ audio{
         align-items: center; 
         margin:1em;
     }
+    #map{
+        height: 50%;
+        width: 50%;
+    }
 }
 
 iframe:focus {
