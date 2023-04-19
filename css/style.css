@@ -202,6 +202,7 @@ h1, .full-width {
 
 #mapGrid{
     margin:0em;
+    align-items: left;
 }
 
 .cent{ /*it stands for center :>*/
