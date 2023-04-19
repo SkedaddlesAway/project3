@@ -6,7 +6,7 @@ body{
     overflow-y: scroll;
     overflow-x: hidden;
     color: #fff;
-    padding: 10px;
+    padding: 7px;
     background-color: #fff;
 }
 
@@ -82,14 +82,23 @@ body{
 }
 
 h1, .full-width {
+    display: block;
+    color: white;
     text-align: center;
-    /* position: relative; child absolute */
-    margin: 0 -9999rem; /*what makes the heading wrap*/
-    /*add back section padding value */
+    padding: 1rem;
+    text-decoration: none;
+    font-size:  1.125rem;
+    text-align: center;
+    background-color: #23232B;
+/**
+    text-align: center;
+     position: relative; child absolute 
+    margin: 0 -9999rem; /*what makes the heading wrap
+    add back section padding value 
     padding:1rem;
     background: #23232B;
     color: #fff;
-    font-size: 1.125rem;
+    font-size: 1.125rem; */
 }
 
 .histH2 {
@@ -168,7 +177,7 @@ h1, .full-width {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-right: 5em;
+    
 } 
 
 #histGrid{
@@ -201,7 +210,7 @@ h1, .full-width {
 }
 
 .caption{
-    display:grid;
+    display:block;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
