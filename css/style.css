@@ -234,7 +234,7 @@ audio{
     object-fit: contain;
 }
 
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 800px) {
     .navv a {
        float: none;
        width: 100%;
