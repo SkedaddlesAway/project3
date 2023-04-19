@@ -7,6 +7,7 @@ body{
     overflow-x: hidden;
     color: #fff;
     padding: 10px;
+    background-color: #fff;
 }
 
 #resBod{
@@ -26,6 +27,77 @@ body{
     text-align: center;
     background-color: #58714C;
     background-image: linear-gradient(#34615A, #58714C, #121e15);
+}
+
+.navv {
+    overflow: hidden;
+    background-color: #23232B;
+
+ }
+.navv a {
+    list-style-type: none;
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+.navv a:hover:not(#onpage) {
+    background-color: #111;
+}
+  
+.navv .onpage {
+    background-color: #A25D53;
+}
+
+ @media screen and (max-width: 660px) {
+    .navv a {
+       float: none;
+       width: 100%;
+    }
+ }
+/**
+.navv ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #23232B;
+    float
+}
+
+.navv li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.navv li a:hover:not(#onpage) {
+    background-color: #111;
+}
+  
+.navv .onpage {
+    background-color: #A25D53;
+}
+
+#sNav ul{
+    background-color: #121e15;
+}
+
+#sNav .onpage {
+    background-color: #D09085;
+}
+**/
+#hNav a{
+    background-color: #262626;
+}
+
+#hNav .navv .onpage {
+    background-color: #74AEBF;
 }
 
 h1, .full-width {
@@ -54,49 +126,6 @@ h1, .full-width {
 #shrekH1{
     background: #121e15;
     color: #CB9A40;
-}
-
-.navv ul{
-    list-style-type: none;
-    overflow: scroll;
-    background-color: #23232B;
-}
-
-.navv li {
-    float: left;
-}
-
-.navv li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1em;
-}
-
-.navv li a:hover:not(#onpage) {
-    background-color: #111;
-}
-  
-.navv .onpage {
-    background-color: #A25D53;
-}
-
-#sNav ul{
-    background-color: #121e15;
-}
-
-#sNav .onpage {
-    background-color: #D09085;
-}
-
-#hNav ul{
-    background-color: #262626;
-}
-
-#hNav .navv .onpage {
-    background-color: #74AEBF;
 }
 
 #germania{
@@ -139,6 +168,7 @@ h1, .full-width {
     box-shadow: 15px 15px #D09085;
     margin: 1em;
     width: 80%;
+    min-width: 220px;
     height: auto;
     box-sizing: border-box;
     transition: .2s all ease-in-out;
@@ -195,3 +225,4 @@ audio{
     max-width: 100%;
     object-fit: contain;
 }
+
